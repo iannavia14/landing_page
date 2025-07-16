@@ -1,0 +1,34 @@
+body{
+    display: block;
+    margin: 0;
+}
+.headercontainer{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1rem;
+    margin: 0;
+    background-color: #1f2937;
+}
+.headercontent{
+    border: 2px solid red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 1rem;
+}
+.headeritem{
+    display: flex;
+    gap: 2rem;
+}
+.headerlogo{
+    display: flex;
+    font-size: 24px;
+    text-decoration: none;
+    color: #f9faf8;
+}
+.headeritems{
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+}
